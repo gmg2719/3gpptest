@@ -1,0 +1,202 @@
+Testing begins at:  2020-04-12 11:40:19
+Home/SIM operator:  26003 Orange
+Access Point Name:  internetipv6
+WWAN module model:  HP lt4132 LTE/HSPA+ 4G Module (firmware 12.617.12.01.00)
+Network interface:  wwp0s20f0u3c3
+AT command device:  ttyUSB0
+Ignore RATs/PLMNs:  
+
+Setting radio access technolgy to LTE...OK
+Scanning PLMNs...OK
+
+{'status': '1', 'longname': 'RO Vodafone RO', 'shortname': 'VF-RO', 'mccmnc': '22601', 'tech': '7'}
+===================================================================================================
+* Registering....OK [26 seconds elapsed]
+* Waiting for packet service...OK [0 seconds elapsed]
+* [IPv4v6] Connecting...OK
+  [IPv4v6] IPv4 config: {'address': '10.143.37.28', 'dns': ['194.204.159.1', '194.204.152.34'], 'gateway': '10.143.37.25', 'method': 'static', 'mtu': '1500', 'prefix': '29'}
+  [IPv4v6] ping 87.238.33.1...OK
+  [IPv4v6] curl -4 icanhazip.com...OK [46.134.57.151]
+  [IPv4v6] IPv6 config: {'address': '--', 'dns': [], 'gateway': '--', 'method': 'dhcp', 'mtu': '--', 'prefix': '0'}
+  [IPv4v6] ping 2a02:c0::1...FAILED [ping: connect: Network is unreachable]
+  [IPv4v6] curl -6 icanhazip.com...FAILED [curl: (7) Couldn't connect to server]
+  [IPv4v6] Disconnecting...OK
+* [IPv6] Connecting...FAILED [Service option not supported]
+* [IP] Connecting...OK
+  [IP] IPv4 config: {'address': '10.107.103.114', 'dns': ['194.204.159.1', '194.204.152.34'], 'gateway': '10.107.103.113', 'method': 'static', 'mtu': '1500', 'prefix': '30'}
+  [IP] ping 87.238.33.1...OK
+  [IP] curl -4 icanhazip.com...OK [37.47.165.9]
+  [IP] Disconnecting...OK
+
+{'status': '1', 'longname': 'TELEKOM.RO', 'shortname': 'TELEKOM', 'mccmnc': '22603', 'tech': '7'}
+=================================================================================================
+* Registering....FAILED [timeout after 900s]
+
+{'status': '1', 'longname': 'RO Digi.Mobil', 'shortname': 'Digi', 'mccmnc': '22605', 'tech': '7'}
+=================================================================================================
+* Registering....FAILED [timeout after 900s]
+
+{'status': '2', 'longname': 'Orange #stamacasa', 'shortname': 'Orange #stamacasa', 'mccmnc': '22610', 'tech': '7'}
+==================================================================================================================
+* Registering....OK [4 seconds elapsed]
+* Waiting for packet service...OK [0 seconds elapsed]
+* [IPv4v6] Connecting...OK
+  [IPv4v6] IPv4 config: {'address': '--', 'dns': [], 'gateway': '--', 'method': 'dhcp', 'mtu': '--', 'prefix': '0'}
+  [IPv4v6] ping 87.238.33.1...OK
+  [IPv4v6] curl -4 icanhazip.com...OK [46.134.164.166]
+  [IPv4v6] IPv6 config: {'address': '2a00:f41:2836:bb1:5a2c:80ff:fe13:9208', 'dns': ['2a01:1700:2:ffff::9f01', '2a01:1700:3:ffff::9822'], 'gateway': '::', 'method': 'static', 'mtu': '1500', 'prefix': '64'}
+  [IPv4v6] ping 2a02:c0::1...OK
+  [IPv4v6] curl -6 icanhazip.com...OK [2a00:f41:2836:bb1:5a2c:80ff:fe13:9208]
+  [IPv4v6] Disconnecting...OK
+* [IPv6] Connecting...OK
+  [IPv6] IPv6 config: {'address': '2a00:f41:2818:590b:5a2c:80ff:fe13:9208', 'dns': ['2a01:1700:2:ffff::9f01', '2a01:1700:3:ffff::9822'], 'gateway': '::', 'method': 'static', 'mtu': '1500', 'prefix': '64'}
+  [IPv6] ping 2a02:c0::1...OK
+  [IPv6] curl -6 icanhazip.com...OK [2a00:f41:2818:590b:5a2c:80ff:fe13:9208]
+  [IPv6] Disconnecting...OK
+* [IP] Connecting...OK
+  [IP] IPv4 config: {'address': '10.103.199.17', 'dns': ['194.204.159.1', '194.204.152.34'], 'gateway': '10.103.199.18', 'method': 'static', 'mtu': '1500', 'prefix': '30'}
+  [IP] ping 87.238.33.1...OK
+  [IP] curl -4 icanhazip.com...OK [37.47.132.52]
+  [IP] Disconnecting...OK
+
+Setting radio access technolgy to UMTS...OK
+Scanning PLMNs...OK
+
+{'status': '1', 'longname': 'RO Vodafone RO', 'shortname': 'VF-RO', 'mccmnc': '22601', 'tech': '2'}
+===================================================================================================
+* Registering....OK [728 seconds elapsed]
+* Waiting for packet service...OK [0 seconds elapsed]
+* [IPv4v6] Connecting...OK
+  [IPv4v6] IPv4 config: {'address': '10.222.20.78', 'dns': ['194.204.159.1', '194.204.152.34'], 'gateway': '10.222.20.77', 'method': 'static', 'mtu': '1500', 'prefix': '30'}
+  [IPv4v6] ping 87.238.33.1...OK
+  [IPv4v6] curl -4 icanhazip.com...OK [31.60.130.59]
+  [IPv4v6] IPv6 config: {'address': '--', 'dns': [], 'gateway': '--', 'method': 'dhcp', 'mtu': '--', 'prefix': '0'}
+  [IPv4v6] ping 2a02:c0::1...FAILED [ping: connect: Network is unreachable]
+  [IPv4v6] curl -6 icanhazip.com...FAILED [curl: (7) Couldn't connect to server]
+  [IPv4v6] Disconnecting...OK
+* [IPv6] Connecting...FAILED [Service option not supported]
+* [IP] Connecting...OK
+  [IP] IPv4 config: {'address': '10.103.218.222', 'dns': ['194.204.159.1', '194.204.152.34'], 'gateway': '10.103.218.221', 'method': 'static', 'mtu': '1500', 'prefix': '30'}
+  [IP] ping 87.238.33.1...OK
+  [IP] curl -4 icanhazip.com...OK [37.47.136.3]
+  [IP] Disconnecting...OK
+
+{'status': '1', 'longname': 'RO Digi.Mobil', 'shortname': 'Digi', 'mccmnc': '22605', 'tech': '2'}
+=================================================================================================
+* Registering....FAILED [timeout after 900s]
+
+{'status': '1', 'longname': '226 06', 'shortname': '226 06', 'mccmnc': '22606', 'tech': '2'}
+============================================================================================
+* Registering....OK [7 seconds elapsed]
+* Waiting for packet service...OK [0 seconds elapsed]
+* [IPv4v6] Connecting...OK
+  [IPv4v6] IPv4 config: {'address': '10.108.11.130', 'dns': ['194.204.159.1', '194.204.152.34'], 'gateway': '10.108.11.129', 'method': 'static', 'mtu': '1500', 'prefix': '30'}
+  [IPv4v6] ping 87.238.33.1...OK
+  [IPv4v6] curl -4 icanhazip.com...OK [37.47.169.45]
+  [IPv4v6] IPv6 config: {'address': '--', 'dns': [], 'gateway': '--', 'method': 'dhcp', 'mtu': '--', 'prefix': '0'}
+  [IPv4v6] ping 2a02:c0::1...OK
+  [IPv4v6] curl -6 icanhazip.com...OK [2a00:f41:70b6:103d:c130:8480:a193:55d1]
+  [IPv4v6] Disconnecting...OK
+* [IPv6] Connecting...OK
+  [IPv6] IPv6 config: {'address': '2a00:f41:388b:ca3c:5a2c:80ff:fe13:9208', 'dns': ['2a01:1700:2:ffff::9f01', '2a01:1700:3:ffff::9822'], 'gateway': '::', 'method': 'static', 'mtu': '1500', 'prefix': '64'}
+  [IPv6] ping 2a02:c0::1...OK
+  [IPv6] curl -6 icanhazip.com...OK [2a00:f41:388b:ca3c:5a2c:80ff:fe13:9208]
+  [IPv6] Disconnecting...OK
+* [IP] Connecting...OK
+  [IP] IPv4 config: {'address': '10.210.25.5', 'dns': ['194.204.159.1', '194.204.152.34'], 'gateway': '10.210.25.6', 'method': 'static', 'mtu': '1500', 'prefix': '30'}
+  [IP] ping 87.238.33.1...OK
+  [IP] curl -4 icanhazip.com...OK [5.184.70.50]
+  [IP] Disconnecting...OK
+
+{'status': '1', 'longname': 'Orange #stamacasa', 'shortname': 'Orange #stamacasa', 'mccmnc': '22610', 'tech': '2'}
+==================================================================================================================
+* Registering....OK [6 seconds elapsed]
+* Waiting for packet service...OK [0 seconds elapsed]
+* [IPv4v6] Connecting...OK
+  [IPv4v6] IPv4 config: {'address': '10.208.232.17', 'dns': ['194.204.159.1', '194.204.152.34'], 'gateway': '10.208.232.18', 'method': 'static', 'mtu': '1500', 'prefix': '30'}
+  [IPv4v6] ping 87.238.33.1...OK
+  [IPv4v6] curl -4 icanhazip.com...OK [5.184.85.42]
+  [IPv4v6] IPv6 config: {'address': '--', 'dns': [], 'gateway': '--', 'method': 'dhcp', 'mtu': '--', 'prefix': '0'}
+  [IPv4v6] ping 2a02:c0::1...OK
+  [IPv4v6] curl -6 icanhazip.com...OK [2a00:f41:82d:1891:d02d:bfad:83c1:a70d]
+  [IPv4v6] Disconnecting...OK
+* [IPv6] Connecting...OK
+  [IPv6] IPv6 config: {'address': '2a00:f41:58ae:f854:5a2c:80ff:fe13:9208', 'dns': ['2a01:1700:2:ffff::9f01', '2a01:1700:3:ffff::9822'], 'gateway': '::', 'method': 'static', 'mtu': '1500', 'prefix': '64'}
+  [IPv6] ping 2a02:c0::1...OK
+  [IPv6] curl -6 icanhazip.com...OK [2a00:f41:58ae:f854:5a2c:80ff:fe13:9208]
+  [IPv6] Disconnecting...OK
+* [IP] Connecting...OK
+  [IP] IPv4 config: {'address': '10.204.8.51', 'dns': ['194.204.159.1', '194.204.152.34'], 'gateway': '10.204.8.49', 'method': 'static', 'mtu': '1500', 'prefix': '29'}
+  [IP] ping 87.238.33.1...OK
+  [IP] curl -4 icanhazip.com...OK [31.60.30.150]
+  [IP] Disconnecting...OK
+
+Setting radio access technolgy to GSM...OK
+Scanning PLMNs...OK
+
+{'status': '1', 'longname': 'RO Vodafone RO', 'shortname': 'VF-RO', 'mccmnc': '22601', 'tech': '0'}
+===================================================================================================
+* Registering....OK [9 seconds elapsed]
+* Waiting for packet service...OK [7 seconds elapsed]
+* [IPv4v6] Connecting...OK
+  [IPv4v6] IPv4 config: {'address': '10.212.22.226', 'dns': ['194.204.159.1', '194.204.152.34'], 'gateway': '10.212.22.225', 'method': 'static', 'mtu': '1500', 'prefix': '30'}
+  [IPv4v6] ping 87.238.33.1...OK
+  [IPv4v6] curl -4 icanhazip.com...OK [5.184.68.47]
+  [IPv4v6] IPv6 config: {'address': '--', 'dns': [], 'gateway': '--', 'method': 'dhcp', 'mtu': '--', 'prefix': '0'}
+  [IPv4v6] ping 2a02:c0::1...FAILED [ping: connect: Network is unreachable]
+  [IPv4v6] curl -6 icanhazip.com...FAILED [curl: (7) Couldn't connect to server]
+  [IPv4v6] Disconnecting...OK
+* [IPv6] Connecting...FAILED [Service option not supported]
+* [IP] Connecting...OK
+  [IP] IPv4 config: {'address': '10.153.193.220', 'dns': ['194.204.159.1', '194.204.152.34'], 'gateway': '10.153.193.217', 'method': 'static', 'mtu': '1500', 'prefix': '29'}
+  [IP] ping 87.238.33.1...OK
+  [IP] curl -4 icanhazip.com...OK [46.134.150.173]
+  [IP] Disconnecting...OK
+
+{'status': '1', 'longname': 'TELEKOM.RO', 'shortname': 'TELEKOM', 'mccmnc': '22603', 'tech': '0'}
+=================================================================================================
+* Registering....OK [10 seconds elapsed]
+* Waiting for packet service...OK [16 seconds elapsed]
+* [IPv4v6] Connecting...OK
+  [IPv4v6] IPv4 config: {'address': '10.89.212.21', 'dns': ['194.204.159.1', '194.204.152.34'], 'gateway': '10.89.212.22', 'method': 'static', 'mtu': '1500', 'prefix': '30'}
+  [IPv4v6] ping 87.238.33.1...OK
+  [IPv4v6] curl -4 icanhazip.com...OK [5.184.38.230]
+  [IPv4v6] IPv6 config: {'address': '--', 'dns': [], 'gateway': '--', 'method': 'dhcp', 'mtu': '--', 'prefix': '0'}
+  [IPv4v6] ping 2a02:c0::1...OK
+  [IPv4v6] curl -6 icanhazip.com...OK [2a00:f41:88c:a385:e8a:f36f:77af:ca99]
+  [IPv4v6] Disconnecting...OK
+* [IPv6] Connecting...OK
+  [IPv6] IPv6 config: {'address': '2a00:f41:1c42:a6e6:5a2c:80ff:fe13:9208', 'dns': ['2a01:1700:2:ffff::9f01', '2a01:1700:3:ffff::9822'], 'gateway': '::', 'method': 'static', 'mtu': '1500', 'prefix': '64'}
+  [IPv6] ping 2a02:c0::1...OK
+  [IPv6] curl -6 icanhazip.com...OK [2a00:f41:1c42:a6e6:5a2c:80ff:fe13:9208]
+  [IPv6] Disconnecting...OK
+* [IP] Connecting...OK
+  [IP] IPv4 config: {'address': '10.154.119.31', 'dns': ['194.204.159.1', '194.204.152.34'], 'gateway': '10.154.119.1', 'method': 'static', 'mtu': '1500', 'prefix': '26'}
+  [IP] ping 87.238.33.1...OK
+  [IP] curl -4 icanhazip.com...OK [46.134.139.246]
+  [IP] Disconnecting...OK
+
+{'status': '1', 'longname': 'Orange #stamacasa', 'shortname': 'Orange #stamacasa', 'mccmnc': '22610', 'tech': '0'}
+==================================================================================================================
+* Registering....OK [10 seconds elapsed]
+* Waiting for packet service...OK [7 seconds elapsed]
+* [IPv4v6] Connecting...OK
+  [IPv4v6] IPv4 config: {'address': '10.238.97.53', 'dns': ['194.204.159.1', '194.204.152.34'], 'gateway': '10.238.97.54', 'method': 'static', 'mtu': '1500', 'prefix': '30'}
+  [IPv4v6] ping 87.238.33.1...OK
+  [IPv4v6] curl -4 icanhazip.com...OK [37.47.111.44]
+  [IPv4v6] IPv6 config: {'address': '--', 'dns': [], 'gateway': '--', 'method': 'dhcp', 'mtu': '--', 'prefix': '0'}
+  [IPv4v6] ping 2a02:c0::1...OK
+  [IPv4v6] curl -6 icanhazip.com...OK [2a00:f41:582f:fa5d:49d:fb5a:21c4:993f]
+  [IPv4v6] Disconnecting...OK
+* [IPv6] Connecting...OK
+  [IPv6] IPv6 config: {'address': '2a00:f41:18c4:c026:5a2c:80ff:fe13:9208', 'dns': ['2a01:1700:2:ffff::9f01', '2a01:1700:3:ffff::9822'], 'gateway': '::', 'method': 'static', 'mtu': '1500', 'prefix': '64'}
+  [IPv6] ping 2a02:c0::1...OK
+  [IPv6] curl -6 icanhazip.com...OK [2a00:f41:18c4:c026:5a2c:80ff:fe13:9208]
+  [IPv6] Disconnecting...OK
+* [IP] Connecting...OK
+  [IP] IPv4 config: {'address': '10.205.40.25', 'dns': ['194.204.159.1', '194.204.152.34'], 'gateway': '10.205.40.26', 'method': 'static', 'mtu': '1500', 'prefix': '30'}
+  [IP] ping 87.238.33.1...OK
+  [IP] curl -4 icanhazip.com...OK [31.60.62.132]
+  [IP] Disconnecting...OK
+
+Testing completed at:  2020-04-12 12:47:06
